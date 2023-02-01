@@ -24,6 +24,10 @@ servers:
         enum:
           - http
         default: http
+  - url: "https://frog-waistcoat.cyclic.app"
+    description: for production 
+    
+
 
 components:
   securitySchemes:
