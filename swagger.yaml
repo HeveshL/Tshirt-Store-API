@@ -10,7 +10,7 @@ info:
 
 servers:
   - url: "{protocol}://{url}/api/{version}"
-    description: for local host 
+    description: choose the server 
     variables:
       version:
         enum:
@@ -19,13 +19,14 @@ servers:
       url:
         enum:
           - localhost:4000
+          - frog-waistcoat.cyclic.app
         default: localhost:4000
       protocol:
         enum:
           - http
+          - https
         default: http
-  - url: "https://frog-waistcoat.cyclic.app"
-    description: for production 
+
     
 
 
